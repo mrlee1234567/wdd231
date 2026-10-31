@@ -135,6 +135,15 @@ h2 {
     font-size: 1.75rem;
 }
 
+figure {
+    background-color: var(--bgcol3);
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    justify-items: center;
+    border-radius: 10px;
+}
+
 figcaption {
     font-family: var(--body2);
 }
@@ -222,8 +231,10 @@ footer {
 }
 
 .himgstudent img {
+    display: block;
     width: 120px;
     height: auto;
+    /* justify-content: center; */
 }
 
 .wclist {
