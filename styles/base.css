@@ -146,6 +146,7 @@ figure {
 
 figcaption {
     font-family: var(--body2);
+    color: var(--bgcol1);
 }
 
 footer {
