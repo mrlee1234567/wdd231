@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    padding: 5px 0 5px 10px;
+    border-bottom: solid 1px lightgrey;
+    column-gap: 8px;
+    align-items: end;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 3px;
+}
+
+header span {
+    font-size: 1.2rem;
+    color: aqua;
+    /*i promise you, if the site checker didnt flag me, id make my site the ugliest i could, because its funny*/
+
+}
+
+.hamburger {
+    background: none;
+    border: none;
+    color: aqua;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hamburger::before {
+    content: "\2630";
+    font-size: 1.2rem;
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+}
+
+.navigation {
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.8rem 10px;
+    color: brown;
+    text-decoration: none;
+    border-bottom: solid 1px grey;
+}
+
+.navigation li.current {
+    background-color: aquamarine;
+}
+
+.navigation a:hover {
+    background-color: pink;
+}
+
+.navigation a {
+    border: none;
+}
+
+h1 {
+    margin-left: 10px;
+}
+
+footer {
+    background-color: bisque;
+    padding: 1rem 10px;
+    text-align: center;
+}
+
+.smedia {
+    display: flex;
+    justify-content: center;
+    column-gap: 1rem;
+}
+
+.smedia a {
+    display: flex;
+    align-items: center;
+    border: red dashed 1px;
+    width: 44px;
+    height: 44px;
+    border-radius: 11px;
+}
+
+.smedia img {
+    width: 22px;
+    height: 22px;
+}
+
+.smedia a:hover {
+    background-color: brown;
+}

@@ -1,0 +1,56 @@
+@media only screen and (min-width: 38rem) {
+    header, main, nav, footer {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    header {
+        grid-template-columns: 24px auto;
+    }
+
+    .navigation {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .navigation ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        margin: 0 auto;
+        padding: 0;
+        align-items: center;
+        justify-content: space-evenly;
+        /* width: auto; */
+    }
+
+    .navigation li {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .wcbut {
+        min-width: auto;
+        min-height: auto;
+    }
+
+    .hcwcert.about {
+        grid-column: span 2;
+    }
+    
+    .hcwcert.certif {
+        grid-column: span 3;
+    }
+
+    .hcontent {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 1.5rem;
+        /* row-gap: 1.5rem; */
+    }
+
+}

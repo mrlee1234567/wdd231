@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jared Lee Home Page">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arizonia&family=Cinzel+Decorative:wght@400;700;900&family=Ledger&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/house-fill.svg" alt="logo" width="512" height="512">
+        <!-- note to self: 125kb max img size -->
+        <!-- <span>titel go here</span> -->
+        <span>Jared Lee - Home</span>
+
+        <button id="ham-btn" class="hamburger" title="hamburger navigator"></button>
+    </header>
+    <main>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li class="current"><a href="#" aria-current="page">Home</a></li>
+                <li><a href="#">lm</a></li>
+                <li><a href="#">ipsm</a></li>
+                <li><a href="#">dlr</a></li>
+            </ul>
+        </nav>
+        <h1>Home</h1>
+        <div class="hcontent">
+            <section class="hcwcert about">
+                <h2>About Me</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptate delectus sit recusandae est explicabo hic quos eum. Quaerat inventore odit adipisci corporis velit voluptatem ipsam aliquid tempore rem tempora?</p>
+            </section>
+
+            <section class="hcwcert photo">
+                <h2>Student Photo</h2>
+                <figure class="himgstudent">
+                    <img src="images/placeholder.svg" width="256" height="256" loading="lazy" alt="student (currently placeholder)">
+                    <figcaption>Jared Lee</figcaption>
+                </figure>
+            </section>
+
+            <section class="hcwcert certif">
+                <h2>Web Certificate Courses</h2>
+                <div class="hwebcert">
+                    <a href="#" class="wcbut" id="certall">All</a>
+                    <a href="#" class="wcbut" id="certcse">CSE</a>
+                    <a href="#" class="wcbut" id="certwdd">WDD</a>
+                </div>
+                <ul class="wclist" id="wdcert"></ul>
+                <p><span id="wccredits"></span></p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="smedia">
+            <a href="https://github.com/mrlee1234567"><img src="images/github.svg" alt="github" width="512" height="512"></a>
+            <a href="https://facebook.com/"><img src="images/facebook.svg" alt="facebook" width="512" height="512"></a>
+            <a href="https://linkedin.com/"><img src="images/linkedin.svg" alt="linkedin" width="512" height="512"></a>
+
+        </div>
+        
+        <p><span id="currentyear"></span> Jared Lee | Arizona</p>
+        <p>Last Modified <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
