@@ -1,0 +1,30 @@
+@import "base.css";
+/* ive done this before, if the checker freaks out, i will add duplicates (as needed, sometimes i can get away with not adding duplicates) of colors */
+
+.pcards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    column-gap: 1rem;
+    row-gap: 1rem;
+    background-color: var(--bgcol3);
+    align-content: center;
+    padding: 1rem 0;
+}
+
+.prophet {
+    /* display: flex; */
+    /* justify-content: space-around; */
+    margin: 0 auto;
+    background-color: var(--bgcol2);
+    border: 2px solid var(--accent2);
+    text-align: center;
+    /* width: 300px; */
+    max-width: 260px;
+    padding: 2rem;
+}
+
+.prophet img {
+    display: block;
+    width: 200px;
+    height: auto;
+}

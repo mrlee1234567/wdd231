@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --bgcol1: lightskyblue;
+    --bgcol2: ghostwhite;
+    --bgcol3: lightcyan;
+    --bgcol4: darkslateblue;
+    /* --text1: black; */
+    --text1: #16161d;
+    /* --text2: white; */
+    --text2: linen;
+    /* --accent1: seashell; */
+    --accent1: navajowhite;
+    --accent2: coral;
+    --accent3: crimson;
+    --accent4: firebrick;
+
+    --body1: "IBM Plex Serif", "Times New Roman", serif;
+    --body2: "Arsenal", "Calibri", sans-serif;
+    --header1: "Arizonia", "Old English Text MT", "Copperplate Gothic", Impact, serif;
+    --header2: "Gravitas One", "Bahnschrift", Impact, sans-serif;
+    --fonts-hamburger: Verdana, "Geneva", Tahoma, sans-serif;
+}
+
+body {
+    background-color: var(--bgcol1);
+    color: var(--text1);
+    font-family: var(--body1);
+    font-size: 1.1rem;
+}
+
+header, footer {
+    background-color: var(--bgcol2);
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.navigation {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* align-items: end; */
+}

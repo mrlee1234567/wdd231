@@ -1,0 +1,23 @@
+{
+    "family":"Doe",
+    "moveinDate":"1-1-1970",
+    "visitedByBishopric":true,
+    "size":3,
+    "members":[
+        {
+            "name":"Spaalone",
+            "gender":"m",
+            "birthdate":"1-1-1970"
+        },
+        {
+            "name":"Babagoose",
+            "gender":"f",
+            "birthdate":"1-2-1970"
+        },
+        {
+            "name":"Goodies",
+            "gender":"m",
+            "birthdate":"6-20-1997"
+        }
+    ]
+}

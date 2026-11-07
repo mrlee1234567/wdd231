@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mesa Chamber of Commerce directory page, WDD231 assignment">
+    <meta name="author" content="Jared Lee">
+    <meta property="og:title" content="Jared Lee Home Page">
+    <meta property="og:description" content="Chamber of Commerce Directory for Jared Lee's WDD231 Class">
+    <meta property="og:url" content="https://mrlee1234567.github.io/wdd231/">
+    <meta property="og:image" content="images/placeholder.svg">
+    <title>Mesa AZ Chamber of Commerce - Directory</title>
+    <!-- if its alright, i used the ones i made earlier and modified them to fit with this project, removing things that arent necessary and changing things where possible -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <!-- membership lvls: 1=member, 2=silver, 3=gold -->
+    <script src="scripts/members.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/gridlist.js" defer></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arsenal&family=Gravitas+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        
+        
+        <div class="navlogo">
+            <img src="images/placeholder.svg" alt="logo" width="50" height="50" loading="lazy">
+            <p>Mesa Arizona Chamber of Commerce</p>
+        </div>
+        <button id="ham-btn" class="hamburger" title="hamburger navigator"></button>
+        <!-- <div class="navbar"> -->
+
+                
+                
+                
+                
+        <!-- </div> -->
+        
+    </header>
+    <main>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li class="current"><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Discover</a></li>
+            </ul>
+        </nav>
+        <h1>Directory</h1>
+        <div class="list-menu">
+            <button id="grid">Grid</button>
+            <button id="list">List</button>
+        </div>
+        <div class="member-list list" id="dynamic-list"></div>
+    </main>
+    <footer>
+        
+        <div class="foot">
+            <div>
+                <p>Mesa AZ Chamber of Commerce</h2>
+                <p>100 Main St.</p>
+                <p>Mesa, AZ</p>
+                <p>info@mesor.az</p>
+                <p>(480)111-1234</p>
+            </div>
+            <div class="smedia">
+                <a href="facebook.com"><img src="images/facebook.svg" alt="facebook" width="64" height="64" loading="lazy"></a>
+                <a href="linkedin.com"><img src="images/linkedin.svg" alt="linkedin" width="64" height="64" loading="lazy"></a>
+                <a href="github.com"><img src="images/github.svg" alt="github" width="64" height="64" loading="lazy"></a>
+            </div>
+            <div>
+                <p>WDD231 Class Project</p>
+                <p>Jared Lee</p>
+                <p><span id="currentyear"></span></p>
+                <p>Last Modified <span id="lastModified"></span></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
