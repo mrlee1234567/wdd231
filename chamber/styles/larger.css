@@ -51,4 +51,8 @@
         padding: 0.25rem; */
     }
 
+    .list .member-note {
+        grid-column: span 4;
+    }
+
 }

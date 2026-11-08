@@ -16,16 +16,24 @@ const displayMembers = (memr) => {
         phon.textContent = i.phone;
         webs.textContent = i.website;
         webs.classList.add('member-website');
-        logo.setAttribute('src',fallbackImg);
+        const img = i.image || fallbackImg;
+        logo.setAttribute('src',img);
         logo.setAttribute('width','100');
         logo.setAttribute('height','100');
         logo.setAttribute('alt',i.name);
         logo.setAttribute('loading','lazy');
+        const notes = i.note || '&nan';
         card.appendChild(bunis);
         card.appendChild(logo);
         card.appendChild(addr);
         card.appendChild(phon);
         card.appendChild(webs);
+        if (notes != '&nan') {
+            const ncard = document.createElement('p');
+            ncard.textContent = notes;
+            ncard.classList.add('member-note');
+            card.appendChild(ncard);
+        }
         // card.classList.add('member-card');
         cards.appendChild(card);
     });

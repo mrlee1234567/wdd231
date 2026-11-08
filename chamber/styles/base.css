@@ -181,6 +181,10 @@ footer {
     display: none;
 }
 
+.list .member-note {
+    grid-column: span 2;
+}
+
 .list-menu {
     display: flex;
     margin: 1rem auto;

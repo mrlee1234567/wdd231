@@ -21,11 +21,21 @@
         "membership": 3
     },
     {
+        "name": "Charlie's International Antiques",
+        "address": "20 E Main, Mesa, AZ",
+        "phone": "(602)242-5555",
+        "website": "www.cia.gov",
+        "membership": 1,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/25/Seal_of_the_Central_Intelligence_Agency.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+    },
+    {
         "name": "Organ Stop Pizza",
-        "address": "1149 E Southern Ave, Mesa, AZ (This One is Real)",
+        "address": "1149 E Southern Ave, Mesa, AZ",
         "phone": "(480)813-5700",
         "website": "www.organstoppizza.com",
-        "membership": 2
+        "membership": 2,
+        "image" : "https://organstoppizza.com/wp-content/uploads/2024/08/SVG.svg",
+        "note": "This One is Real"
     },
     {
         "name": "Hokkaido Fan Cafe",
@@ -47,5 +57,14 @@
         "phone": "(602)987-6543",
         "website": "www.gunfighterok.com/mesa",
         "membership": 3
+    },
+    {
+        "name": "Fredward, Burgh, and Iñigo, Attournies at Law",
+        "address": "21711 N 7th St, Phoenix, AZ",
+        "phone": "(623)466-1999",
+        "website": "www.fbi.gov",
+        "membership": 3,
+        "note": "Don't call this number, this is the ACTUAL FBI tip hotline in Phoenix",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/New_seal_of_the_Federal_Bureau_of_Investigation.svg/960px-New_seal_of_the_Federal_Bureau_of_Investigation.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
 ]
