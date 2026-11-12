@@ -4,21 +4,24 @@
         "address": "550 Hogwild Ave, Mesa, AZ",
         "phone": "(602)123-5555",
         "website": "www.hogbycicles.com",
-        "membership": 3
+        "membership": 3,
+        "image": "images/placeholder.svg"
     },
     {
         "name": "Dr. Melon's Snakeoil",
         "address": "100 Woow Ave, Trailer 5, Mesa, AZ",
         "phone": "N/A",
         "website": "N/A",
-        "membership": 1
+        "membership": 1,
+        "image": "images/placeholder.svg"
     },
     {
         "name": "Allan's",
         "address": "91 N Washington Dr, Mesa, AZ",
         "phone": "(480)999-9999",
         "website": "www.buyallandotcom.com",
-        "membership": 3
+        "membership": 3,
+        "image": "images/placeholder.svg"
     },
     {
         "name": "Charlie's International Antiques",
@@ -42,21 +45,24 @@
         "address": "840 W Picadillo Rd, Mesam AZ",
         "phone": "(480)888-1234",
         "website": "www.hokkaidofanentertainment.com",
-        "membership": 2
+        "membership": 2,
+        "image": "images/placeholder.svg"
     },
     {
         "name": "The Grongler Shop of Horrors",
         "address": "Back Alley Behind That Place Near the Canals",
         "website": "www.backalleyshadyscarythings.org",
         "phone": "N/A",
-        "membership": 1
+        "membership": 1,
+        "image": "images/placeholder.svg"
     },
     {
         "name": "Gunfighter Saloon",
         "address": "140 E Main, Mesa, AZ",
         "phone": "(602)987-6543",
         "website": "www.gunfighterok.com/mesa",
-        "membership": 3
+        "membership": 3,
+        "image": "images/placeholder.svg"
     },
     {
         "name": "Fredward, Burgh, and Iñigo, Attournies at Law",
