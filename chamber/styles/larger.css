@@ -1,4 +1,5 @@
 @media only screen and (min-width: 38rem) {
+    /* was 38rem */
     /* header, main, nav, footer {
         max-width: 900px;
         margin: 0 auto;
@@ -7,6 +8,12 @@
     body, nav {
         max-width: 900px;
         margin: 0 auto;
+        align-self: center;
+        /* justify-self: center; */
+    }
+
+    body {
+        justify-self: center;
     }
 
     .hamburger {
@@ -61,6 +68,19 @@
 
     .list .member-note {
         grid-column: span 4;
+    }
+
+    .sec {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .sec section {
+        gap:1rem;
+    }
+
+    .weather-card {
+        grid-column: span 2;
     }
 
 }

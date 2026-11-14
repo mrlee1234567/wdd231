@@ -2,38 +2,149 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link rel="stylesheet" href="styles/normalize.css"> -->
+    
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Arsenal&family=Gravitas+One&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Arsenal&family=Gravitas+One&display=swap">
+    </noscript>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Arsenal&family=Gravitas+One&display=swap" rel="stylesheet"> -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles/normalize.css">
+    <meta name="description" content="Mesa Chamber of Commerce Home page, WDD231 assignment">
+    <meta name="author" content="Jared Lee">
+    <title>Mesa AZ Chamber of Commerce - Home</title>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- <link rel="preload" href="styles/larger.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="styles/larger.css">
+    </noscript> -->
+
+    <!-- <link rel="preload" href="styles/base.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="styles/base.css">
+    </noscript> -->
+
+    <link rel="preload" href="styles/normalize.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="styles/normalize.css">
+    </noscript>
+
     <script src="scripts/navigation.js" defer></script>
+    <link rel="icon" href="favicon.ico">
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script>
+
+    <meta property="og:title" content="Jared Lee Home Page">
+    <meta property="og:description" content="Chamber of Commerce Home for Jared Lee's WDD231 Class">
+    <meta property="og:url" content="https://mrlee1234567.github.io/wdd231/">
+    <meta property="og:image" content="https://mrlee1234567.github.io/wdd231/chamber/images/placeholder.svg">
+
+    
 </head>
 <body>
     <header>
-        <img src="images/house-fill.svg" alt="logo" width="512" height="512">
+        <!-- <img src="images/house-fill.svg" alt="logo" width="512" height="512">
         <span>titel go here</span>
-        <button id="ham-btn" class="hamburger"></button>
+        <button id="ham-btn" class="hamburger"></button> -->
+        <div class="navlogo">
+            <img src="images/placeholder.svg" alt="logo" width="50" height="50" loading="lazy">
+            <p>Mesa Arizona Chamber of Commerce</p>
+        </div>
+        <button id="ham-btn" class="hamburger" title="hamburger navigator"></button>
     </header>
     <main>
         <nav id="nav-bar" class="navigation">
             <ul>
                 <li class="current"><a href="#" aria-current="page">Home</a></li>
-                <li><a href="#">lm</a></li>
-                <li><a href="#">ipsm</a></li>
-                <li><a href="#">dlr</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Discover</a></li>
             </ul>
         </nav>
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 500px)" srcset="images/hero.webp">
+                <img src="images/hero-small.webp" alt="hero" width="900" height="400" fetchpriority="high">
+            </picture>
+            <a href="#" class="cta">Join Now!</a>
+        </div>
+
+        <!-- community events -->
+        <section class="home-sec">
+            <h2>Community Events</h2>
+            <div class="sec" id="ce">
+                <section>
+                    <h2>Annual Headless Chicken Run</h2>
+                    <img src="images/placeholder.svg" alt="test" width="100" height="100" loading="lazy">
+                    <p>Join us as we make chickens without their heads run around downtown mesa without their heads in celebration of local politics or something</p>
+                </section>
+                <section>
+                    <h2>Semianual Bianual Anniversery of the People that did the thing</h2>
+                    <img src="images/placeholder.svg" alt="test" width="100" height="100" loading="lazy">
+                    <p>we really dont know what were celebrating, but were happy to do it</p>
+                </section>
+                <section>
+                    <h2>test</h2>
+                    <img src="images/placeholder.svg" alt="test" width="100" height="100" loading="lazy">
+                    <p>this here is a tsets</p>
+                </section>
+                <!-- <section>
+                    <h2>crazy festival</h2>
+                    <img src="images/placeholder.svg" alt="test" width="100" height="100" loading="lazy">
+                    <p>festival where all the crazy people do crazy things in pioneer park. unlike usual crazy people, these cray people are scheduled to be crazy</p>
+                </section> -->
+            </div>
+        </section>
+
+        <!-- weather -->
+        <section class="home-sec">
+            <h2>Local Weather</h2>
+            <div class="sec sc-weather" id="weather"></div>
+        </section>
+
+        <!-- spotlight -->
+        <section class="home-sec">
+            <h2>Business Spotlight</h2>
+            <div class="sec" id="spotlight"></div>
+        </section>
+        
     </main>
     <footer>
-        <div class="smedia">
+        <!-- <div class="smedia">
             <a href="https://github.com/mrlee1234567"><img src="images/github.svg" alt="github" width="512" height="512"></a>
             <a href="https://facebook.com/"><img src="images/facebook.svg" alt="facebook" width="512" height="512"></a>
             <a href="https://linkedin.com/"><img src="images/linkedin.svg" alt="linkedin" width="512" height="512"></a>
 
         </div>
         <p>copywright sym and current year</p>
-        <p>last modified</p>
+        <p>last modified</p> -->
+        <div class="foot">
+            <div class="foot-text">
+                <p>Mesa AZ Chamber of Commerce</p>
+                <p>100 Main St.</p>
+                <p>Mesa, AZ</p>
+                <p>info@mesor.az</p>
+                <p>(480)111-1234</p>
+            </div>
+            <div class="smedia">
+                <a href="facebook.com"><img src="images/facebook.svg" alt="facebook" width="64" height="64" loading="lazy"></a>
+                <a href="linkedin.com"><img src="images/linkedin.svg" alt="linkedin" width="64" height="64" loading="lazy"></a>
+                <a href="github.com"><img src="images/github.svg" alt="github" width="64" height="64" loading="lazy"></a>
+            </div>
+            <div class="foot-text">
+                <p>WDD231 Class Project</p>
+                <p>Jared Lee</p>
+                <p><span id="currentyear"></span></p>
+                <p>Last Modified <span id="lastModified"></span></p>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
