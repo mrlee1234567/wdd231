@@ -1,0 +1,117 @@
+@keyframes rotato {
+    0% {
+        rotate: 0deg;
+    }
+    25% {
+        rotate: 90deg;
+    }
+    50% {
+        rotate: 180deg;
+    }
+    75% {
+        rotate: 270deg;
+    }
+    100% {
+        rotate: 360deg;
+    }
+}
+
+@keyframes velocipe {
+    0%, 100% {
+        scale: 1;
+    }
+
+    5% {
+        scale: 0.5;
+    }
+    
+    50% {
+        scale: -2.25;
+        /* scale: 1; */
+    }
+}
+
+@keyframes mooskles {
+    0% {
+        opacity: 0;
+        scale: 1;
+    }
+    50% {
+        opacity: 0.25;
+        scale: 0.9;
+    }
+    55% {
+        opacity: 0.1;
+        scale: 1.2;
+    }
+    75% {
+        opacity: 0.7;
+        scale: 0.7;
+    }
+    100% {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+main{
+    text-align: center;
+    align-content: center;
+}
+
+.loader {
+
+    animation: rotato 2s linear infinite forwards;
+}
+
+.loader, .loader-t {
+    margin: 12rem;
+    position: relative;
+    width: auto;
+}
+
+.mungus {
+    animation: velocipe 3s ease infinite forwards;
+}
+
+.mungus, .a-mungus {
+    position: absolute;
+    width: 10rem;
+}
+
+.a-mungus {
+    background-color: transparent;
+}
+
+.loader-t, .mungus {
+    background-color: aqua;
+    width: 10rem;
+    height: 3rem;
+}
+
+.loader-t {
+    transition: transform 1.5s linear;
+}
+
+.loader-t::after {
+    content: '🫈';
+    position: absolute;
+    transform: scale(0);
+    /* opacity: 0; */
+    /* animation: transform(scale(0)) 1s linear; */
+    /* transition: animation 1.52s ease-in-out; */
+    transition: transform 1.52s ease-in-out;
+}
+
+.loader-t:hover {
+    transform: rotate(360deg);
+}
+
+.loader-t:hover::after {
+    transform: scale(10);
+    /* animation: mooskles 3s ease-in-out; */
+}
+
+/* .mungus:hover::after {
+    transition: mooskles 4s linear;
+} */

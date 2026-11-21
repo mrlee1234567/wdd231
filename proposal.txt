@@ -1,0 +1,5 @@
+the project idea that i had was a "gossip board" where people can post gossip and news in a short form blog 
+
+obviously, it isnt real people and real gossip or real news. all of the profiles and posts will be generated via javascript, with the posts being a mad-libs style generation. the site will be composed of a home page, with a "recomendations" tab with a few "posts" visible, a call to action to sign up/log in (in reality, this is done using stored local json data), a sign up/in page, a gallery page to see the posts that day, and a profile page, allowing you to "post" your own gossip/news.
+
+the motivation for doing this is that I have always had a fascination with procedurally generated content, and the idea to make it a social media website came while I was looking at one of the APIs in the provided repository and saw some of the things it could generate. the idea of gossip/news was because i thought it would be funny, i wont lie

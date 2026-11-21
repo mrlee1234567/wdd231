@@ -310,3 +310,7 @@ footer {
     font-size: 3rem;
     text-align: center;
 }
+
+.join-form section {
+    margin: 1rem;
+}

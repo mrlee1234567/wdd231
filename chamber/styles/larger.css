@@ -18,7 +18,7 @@
         grid-template-columns: auto;
     }
 
-    .navigation {
+    #nav-bar.navigation {
         display: block;
         margin: 0 auto;
     }
@@ -43,7 +43,7 @@
         display: grid;
         grid-template-columns: 1fr auto 1fr;
         align-items: center;
-        min-height: 300px;
+        min-height: 350px;
     }
 
     .foot-text {
@@ -72,11 +72,50 @@
     }
 
     .sec section {
-        gap:1rem;
+        gap: 1rem;
     }
 
     .weather-card {
         grid-column: span 2;
+    }
+
+    .join-form {
+        display: flex;
+    }
+
+    .form form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5rem;
+    }
+
+    .businf, input[type="submit"] {
+        grid-column: span 2;
+    }
+
+    input[type="radio"] {
+    height: 20px;
+    width: 20px;
+    align-self: center;
+    margin-left: 0;
+    }
+
+    .rad-btn label {
+        margin-left: 2rem;
+        /* flex-direction: column; */
+        display: block;
+        text-align: left;
+        font-size: 110%;
+    }
+
+    .memtiers .tier {
+        margin: 2rem 0;
+    }
+
+    .joinsum li {
+        min-width: 500px;
+        width: auto;
+        font-size: 100%;
     }
 
 }

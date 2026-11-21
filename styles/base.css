@@ -266,3 +266,28 @@ footer {
 .wclist li.comptd::before {
     content: "✓";
 }
+
+dialog:modal {
+    border: 2px solid var(--accent3);
+    width: 90%;
+    background-color: var(--bgcol4);
+    color: var(--accent2);
+    max-width: 600px;
+    box-shadow: 0 0 3rem var(--text1);
+}
+
+dialog::backdrop {
+    background-color: var(--accent2);
+}
+
+dialog button {
+    position: absolute;
+    top: 23px;
+    right: 23px;
+    border: 1px solid var(--accent4);
+    padding: 0.5rem 1rem;
+}
+
+h3 {
+    font-family: var(--heading1);
+}

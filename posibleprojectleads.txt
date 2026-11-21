@@ -1,0 +1,9 @@
+https://dummyjson.com/
+https://www.dicebear.com/
+https://thispersondoesnotexist.com/
+https://api.adviceslip.com/
+https://baconipsum.com/
+https://fakerjs.dev/
+https://github.com/sameerkumar18/corporate-bs-generator-api
+https://fakerapi.it/
+https://randomapi.dev/apis/words

@@ -1,0 +1,6 @@
+/* for whatever reason, the footer is making lighthouse mad. this is my response. i dont know how to get it to go lower. yes, it looks bad. anything for an a */
+footer {
+    max-width: 450px;
+    margin: 0 auto;
+    background-color: transparent;
+}

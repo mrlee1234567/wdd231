@@ -90,6 +90,8 @@ const certAll = document.querySelector('#certall');
 const certCse = document.querySelector('#certcse');
 const certWdd = document.querySelector('#certwdd');
 const certList = document.querySelector('#wdcert');
+const dialog = document.querySelector('#course-details');
+
 // let creds = 0;
 
 const CSE = 'CSE';
@@ -104,12 +106,17 @@ function buildLi(lid) {
         cava = cava.filter((crs) => crs.subject == lid);
     }
     cava.forEach((i) => {
-        let iq = document.createElement('li');
+        let lli = document.createElement('li');
+        let iq = document.createElement('button');
         iq.textContent = `${i.subject}${i.number}`;
         if (i.completed) {
             iq.classList.toggle('comptd')
         }
-        certList.appendChild(iq);
+        iq.addEventListener('click', () => {
+            displayCourceDetalus(i);
+        });
+        lli.appendChild(iq);
+        certList.appendChild(lli);
     })
     return ted;
 }
@@ -239,3 +246,24 @@ certWdd.addEventListener('click', () => {
 // creds = 0;
 // creds = certAll.classList.contains('olo');
 document.getElementById('wccredits').innerHTML = `${creds} credits completed.`;
+
+function displayCourceDetalus(course) {
+    dialog.innerHTML = `
+    <button id="closeModal" aria-label="Close">❌</button>
+    <h2>${course.subject} ${course.number}</h2>
+    <h3>${course.title}</h3>
+    <p><strong>Certificate</strong>: ${course.certificate}</p>
+    <p>${course.description}</p>
+    <p><stront>Technologies</strong>: ${course.technology.join(', ')}</p>
+    `;
+    dialog.showModal();
+    dialog.querySelector('#closeModal').addEventListener('click', () => {
+        dialog.close();
+    });
+}
+
+dialog.addEventListener('click', (event) => {
+    if (event.target === dialog) {
+        dialog.close();
+    };
+});

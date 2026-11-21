@@ -1,0 +1,126 @@
+/* @import "base.css"; */
+/* @import "anim.css"; */
+
+.reqd {
+    text-decoration: underline solid var(--accent3);
+}
+
+.reqd::after {
+    content: '*';
+    font-size: 1.5rem;
+    color: var(--accent4);
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    background-color: var(--bgcol1);
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.rad-btn label {
+    /* display: block; */
+    display: flex;
+    text-align: center;
+}
+
+input[type="radio"] {
+    height: 40px;
+    width: 40px;
+    align-self: center;
+    /* margin-left: 2rem; */
+}
+
+input[type="submit"] {
+    width: 100%;
+    font-size: 1.33rem;
+}
+
+legend {
+    background-color: var(--bgcol3);
+    border: 3px solid var(--accent2);
+}
+
+legend, input[type="submit"] {
+    font-size: 120%;
+    padding: 5px;
+}
+
+.form, .memtiers {
+    background-color: var(--bgcol2);
+    padding: 0.5rem;
+}
+
+.memtiers {
+    min-width: 300px;
+}
+
+.rad-btn label {
+    /* flex-direction: row; */
+    font-size: 200%;
+}
+
+.memtiers .tier {
+    background-color: var(--bgcol4);
+    color: var(--bgcol2);
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button, input[type="submit"] {
+    background-color: var(--accent1);
+    border: 3px solid var(--accent2);
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: var(--bgcol2);
+    border-color: var(--bgcol4);
+}
+
+dialog:modal {
+    background-color: var(--accent1);
+}
+
+dialog button {
+    background-color: var(--bgcol3);
+    border-color: var(--bgcol4);
+}
+
+dialog::backdrop {
+    background-color: var(--text2);
+}
+
+.joinsum ul {
+    list-style-type: none;
+    justify-items: center;
+    margin-bottom: 1rem;
+    padding-inline-start: 0;
+}
+
+.joinsum li {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    background-color: var(--bgcol2);
+    font-size: 125%;
+    padding: 5px;
+}
+
+.joinsum li:nth-child(odd) {
+    background-color: var(--accent1);
+}
+
+.busdesc {
+    flex-direction: column;
+}
+
+.shrdate {
+    font-size: 0.75rem;
+}

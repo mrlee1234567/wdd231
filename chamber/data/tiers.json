@@ -1,0 +1,47 @@
+[
+    {
+        "tier": "Non-Profit (NP)",
+        "cost": "Free for Non-Prifit (501(c)(3)) Businesses",
+        "perks": [
+            "25% Discount on Events",
+            "25% Discount on Advertising",
+            "Free Participation In Trade Shows",
+            "Spotlight on Chamber of Commerce Home",
+            "10 Free Featured Ads per Year",
+            "2 Free Trainings per Quarter",
+            "Access to the Chamber of Commerce Advertisors Database"
+        ]
+    },
+    {
+        "tier": "Bronze",
+        "cost": "$24.99/mo",
+        "perks": [
+            "15% Discount on Events",
+            "10% Discount on Advertising"
+        ]
+    },
+    {
+        "tier": "Silver",
+        "cost": "$99.99/mo OR $1150/y",
+        "perks": [
+            "25% Discount on Events",
+            "15% Discount on Advertising",
+            "Free Participation In Trade Shows",
+            "Spotlight on Chamber of Commerce Home",
+            "5 Free Featured Ads per Year"
+        ]
+    },
+    {
+        "tier": "Gold",
+        "cost": "$299.99/mo OR $3400/y",
+        "perks": [
+            "50% Discount on Events",
+            "25% Discount on Advertising",
+            "Free Participation In Trade Shows",
+            "Spotlight on Chamber of Commerce Home",
+            "5 Free Featured Ads per Quarter",
+            "1 Free Training per Quarter",
+            "Access to the Chamber of Commerce Advertisors Database"
+        ]
+    }
+]
