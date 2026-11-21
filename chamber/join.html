@@ -27,7 +27,7 @@
     <meta property="og:description" content="Chamber of Commerce Join for Jared Lee's WDD231 Class">
     <meta property="og:url" content="https://mrlee1234567.github.io/wdd231/">
     <!-- <meta property="og:image" content="images/placeholder.svg"> -->
-    <meta property="og:image" content="https://mrlee1234567.github.io/wdd231/images/profile.jpeg">
+    <meta property="og:image" content="https://mrlee1234567.github.io/wdd231/absolute/sandto.png">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -59,7 +59,7 @@
                         <legend>Applicant Information</legend>
                         <label><span class="reqd">First Name</span> <input title="fname" type="text" name="fname" id="fname" required autocomplete="given-name"></label>
                         <label><span class="reqd">Last Name</span> <input title="lname" type="text" name="lname" id="lname" required autocomplete="family-name"></label>
-                        <label>Applicant Title <input title="organization-title" type="text" name="organization-title" id="organization-title" autocomplete="organization-title" minlength="7" pattern="[\s\w-]"></label>
+                        <label>Applicant Title <input title="organization-title" type="text" name="organization-title" id="organization-title" autocomplete="organization-title" minlength="7" pattern="[\sa-zA-Z-]{7,}"></label>
                     </fieldset>
 
                     <fieldset>
@@ -70,7 +70,7 @@
 
                     <fieldset class="businf">
                         <legend>Business Information</legend>
-                        <label><span class="reqd">Business/Orginization Name</span> <input type="text" name="organization" id="organization" autocomplete="organization" required></label>
+                        <label><span class="reqd">Business/Orginization Name</span> <input title="organization" type="text" name="organization" id="organization" autocomplete="organization" required></label>
                         <label>Business description <textarea id="busdesc" name="busdesc" rows="4"></textarea></label>
                         <div class="rad-btn">
                             <p class="reqd">Membership Tier</p>
