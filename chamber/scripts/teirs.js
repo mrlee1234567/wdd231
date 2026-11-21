@@ -60,9 +60,10 @@ async function openTiersFile() {
 };
 
 function datesender() {
-    const hidd = document.createElement('input');
-    hidd.setAttribute('type','hidden');
-    hidd.setAttribute('name','date');
+    // const hidd = document.createElement('input');
+    // hidd.setAttribute('type','hidden');
+    // hidd.setAttribute('name','date');
+    const hidd = document.querySelector('#date');
     const loc = Intl.DateTimeFormat().resolvedOptions().locale;
     // const opts1 = {
     //     weekday: 'long',

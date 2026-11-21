@@ -28,6 +28,7 @@ label {
     /* display: block; */
     display: flex;
     text-align: center;
+    font-size: 200%;
 }
 
 input[type="radio"] {
@@ -61,16 +62,22 @@ legend, input[type="submit"] {
     min-width: 300px;
 }
 
-.rad-btn label {
-    /* flex-direction: row; */
+/* .rad-btn label {
+    flex-direction: row;
     font-size: 200%;
-}
+} */
 
 .memtiers .tier {
     background-color: var(--bgcol4);
     color: var(--bgcol2);
     padding: 10px;
     margin: 10px 0;
+    transition: transform 1s ease-out;
+    transform: scale(1, 1);
+    @starting-style {
+        transform: scale(0, 0);
+        opacity: 0;
+    }
 }
 
 button, input[type="submit"] {

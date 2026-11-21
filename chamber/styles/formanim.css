@@ -28,6 +28,7 @@
     .memtiers .tier {
         transition: animation 1s ease;
         animation: resetpos;
+        transform: scale(0, 0);
     }
 } */
 
