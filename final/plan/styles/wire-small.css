@@ -1,0 +1,30 @@
+.nav ul {
+    display: block;
+}
+
+.burger {
+    text-align: center;
+    font-size: 50%;
+    justify-self: right;
+    cursor: pointer;
+}
+
+main {
+    display: block;
+}
+
+.foot {
+    display: block;
+}
+
+body {
+    width: 400px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    justify-self: center;
+}
+
+.headlogo {
+    /* justify-content: space-between; */
+    grid-template-columns: 1fr auto 1fr;
+}

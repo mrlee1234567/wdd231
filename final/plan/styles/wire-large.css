@@ -1,0 +1,89 @@
+div, section, figure {
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* flex-direction: column; */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    /* display: flex; */
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.link {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+
+.nav {
+    margin: 0 auto;
+    display: block;
+}
+
+.title {
+    text-align: center;
+    display: block;
+}
+
+.sec {
+    margin: 2rem;
+}
+
+.sec h2 {
+    text-align: center;
+}
+
+.sec h3 {
+    padding-left: 0.5rem;
+}
+
+.headlogo {
+    display: grid;
+    margin: 0.5rem;
+    grid-template-columns: auto 1fr;
+    gap: 1rem;
+}
+/* .headlogo {
+    display: flex;
+    gap: 0.5rem;
+} */
+/* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+.subsec {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.sec figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+}
+
+.maincont, .title {
+    grid-column: span 2;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.foot {
+    display: flex;
+}
+
+.flist {
+    margin: 0 auto;
+    width: 100%;
+}

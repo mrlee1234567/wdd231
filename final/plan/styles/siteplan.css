@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --bgcol1: #051005;
+    --bgcol2: #241d00;
+    --bgcol3: blue;
+    --bgcol4: ivory;
+
+    --textcol1: lime;
+    --textcol2: gold;
+    --textcol3: white;
+    --textcol4: black;
+
+    --accent1: lightgrey;
+    --accent2: dimgrey;
+    --accent3: #16161d;
+    --accent4: red;
+    
+    --body1: 'Verdana', 'Tahoma', sans-serif;
+    
+    --head1: 'Kode Mono', 'Lucida Console', monospace;
+    /* --textcol3: #16161d; */
+    /* forestgreen */
+}
+
+body {
+    background-color: var(--bgcol1);
+    color: var(--textcol1);
+    font-family: var(--body1);
+}
+
+h1, h2, h3 {
+    font-family: var(--head1);
+}
+
+section {
+    background-color: var(--bgcol4);
+    color: var(--textcol4);
+    width: 75%;
+    display: block;
+    justify-self: center;
+    padding: 0.5rem;
+    margin: 1rem;
+    border: 2px solid var(--accent4);
+}
+
+.scheme {
+    background-color: var(--bgcol1);
+    color: var(--textcol1);
+    border-color: var(--textcol1);
+}

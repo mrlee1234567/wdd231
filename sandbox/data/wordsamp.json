@@ -1,0 +1,14 @@
+{
+    "noun":[
+        "dog","cat","mouse","house","state","estate","place","egret","buffalo","shirt","person","thing"
+    ],
+    "adjective":[
+        "red","orange","yellow","green","blue","purple","eigengrau","ecru","live","hungry","grilled","evil","good","spanish"
+    ],
+    "adverb":[
+        "sweetly","inquisitively","loquaciously","glumly","energetically","eelee"
+    ],
+    "verb":[
+        "run","jump","climb","eat"
+    ]
+}
