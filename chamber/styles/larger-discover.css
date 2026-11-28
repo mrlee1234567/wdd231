@@ -1,30 +1,3 @@
-@media only screen and (min-width: 64rem) {
-    /* 64rem = 1024px */
-    .discover {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .discover section {
-        grid-template-areas: 
-        
-        'name name'
-        'figure figure'
-        'description description'
-        'info address'
-        
-        ;
-    }
-
-    .discover address {
-        font-size: 85%;
-    }
-
-    .discover button {
-        min-width: 10rem;
-    }
-}
-
 @media only screen and (min-width: 40rem) {
     /* 40rem =  640px*/
 
@@ -58,3 +31,31 @@
         margin-left: 0.5rem;
     }
 }
+
+@media only screen and (min-width: 64rem) {
+    /* 64rem = 1024px */
+    .discover {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .discover section {
+        grid-template-areas: 
+        
+        'name name'
+        'figure figure'
+        'description description'
+        'info address'
+        
+        ;
+    }
+
+    .discover address {
+        font-size: 85%;
+    }
+
+    .discover button {
+        min-width: 10rem;
+    }
+}
+
