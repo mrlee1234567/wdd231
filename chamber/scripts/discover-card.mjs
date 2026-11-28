@@ -9,8 +9,7 @@ async function masterCard() {
         const img = i.img;
         let header = `<h2>${i.name}</h2>`;
         let dsc = `<p>${i.description}</p>`;
-        let fig = `<figure><img src="${img.link}" alt="${img.alt}" width="300" height="200" fetchpriority="high"><figcaption>${img.caption}</figcaption></figure>`;
-        // loading="lazy"
+        let fig = `<figure><img src="${img.link}" alt="${img.alt}" width="300" height="200" loading="lazy"><figcaption>${img.caption}</figcaption></figure>`;
         let ady = `<address>${i.address}</address>`;
         const butt = document.createElement('button');
         butt.textContent = 'Visit';
@@ -21,11 +20,6 @@ async function masterCard() {
         sec.appendChild(butt);
         discdisp.appendChild(sec);
     });
-
-    // const fcp = discdisp.firstChild();
-    // const f1c = fcp.querySelector('img');
-    // f1c.setAttribute('loading','eager');
-    // f1c.setAttribute('fetchpriority','high')
 };
 
 seeDate('lastvist');
