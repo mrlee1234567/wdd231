@@ -1,0 +1,31 @@
+@media only screen and (min-width: 40rem) {
+    /* 40rem =  640px*/
+
+    .discover section {
+        grid-template-areas: 
+        
+        'figure name'
+        'figure description'
+        'info address'
+
+
+        ;
+    }
+
+    .discover button {
+        min-height: auto;
+        height: 2rem;
+    }
+
+    .discover img,.discover figure {
+        width: 300px;
+    }
+    .discover img:hover {
+        box-shadow: 0 0 20px var(--text1);
+    }
+
+
+    .discover address {
+        margin-left: 0.5rem;
+    }
+}

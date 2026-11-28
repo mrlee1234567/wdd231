@@ -1,0 +1,45 @@
+{
+    "data":[
+        {
+            "content": "My :subRel doesn't like to :verb0 :noun0 because :subPro once saw a :noun0 :verb1.",
+            "blanks": {
+                "verb": 2,
+                "noun": 1
+            },
+            "subject": "person"
+        },
+        {
+            "content": "I heard that :subCity is infested with :adjective0 :noun0s that are attracted to :noun1.",
+            "blanks": {
+                "noun": 2,
+                "adjective": 1
+            },
+            "subject": "place"
+        },
+        {
+            "content": "Did you know that :subCity was built on top of an old :subFeat? Because of this, :subCity is :adjective0.",
+            "blanks": {
+                "adjective": 1
+            },
+            "subject":"place"
+        },
+        {
+            "content": "I once saw my :subRel :subName :verb0 near a :noun0, which was weird because :subProIs deathly afraid of :noun0s, especially :adjective0 :noun0s.",
+            "blanks": {
+                "noun": 1,
+                "adjective": 1
+            },
+            "subject": "person"
+        },
+        {
+            "content": "I really don't like :subAnimals. They are :adjective0 and covered in :noun0, and they :adverb0 :verb0 with their :noun0. Did you know that they are partially responsible for :noun1s?",
+            "blanks": {
+                "noun": 2,
+                "adjective": 1,
+                "verb": 1,
+                "adverb": 1
+            },
+            "subject": "animal"
+        }
+    ]
+}

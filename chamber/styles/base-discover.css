@@ -1,0 +1,79 @@
+.discover section {
+    margin: 1rem;
+    border: 1px solid var(--bgcol3);
+    background-color: var(--bgcol2);
+    padding: 0.5rem;
+    overflow: hidden;
+    border-radius: 6px;
+    display: grid;
+    grid-template-areas:
+
+        'name'
+        'figure'
+        'address'
+        'description'
+        'info'
+
+    ;
+    min-height: 400px;
+}
+
+.discover section,
+.discover figure {
+    justify-items: center;
+}
+
+.discover h2 {
+    grid-area: name;
+}
+
+.discover figure {
+    grid-area: figure;
+}
+
+.discover figure,
+.discover img,
+.discover button {
+    width: 100%;
+}
+
+.discover img {
+    height: auto;
+}
+
+.discover address {
+    grid-area: address;
+
+
+}
+
+.discover p {
+    grid-area: description;
+    margin: 1rem 10px;
+    font-size: 85%;
+}
+
+.discover button {
+    grid-area: info;
+    background-color: var(--accent2);
+    border: 2px solid var(--accent4);
+    color: var(--text1);
+    padding: 0.25rem;
+    min-height: 44px;
+}
+
+.discover button:hover {
+    background-color: var(--accent3);
+    border-color: var(--accent1);
+    color: var(--text2);
+    cursor: pointer;
+}
+
+.lvt {
+    justify-self: center;
+    font-size: 2rem;
+}
+
+.discover {
+    min-height: 64rem;
+}

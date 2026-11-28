@@ -1,14 +1,83 @@
 {
     "noun":[
-        "dog","cat","mouse","house","state","estate","place","egret","buffalo","shirt","person","thing"
+        "dog","cat","mouse","house","state","estate","place","egret","buffalo","shirt","person","thing","cheese","grilled cheese","episode","spain","spane","internet"
     ],
     "adjective":[
-        "red","orange","yellow","green","blue","purple","eigengrau","ecru","live","hungry","grilled","evil","good","spanish"
+        "red","orange","yellow","green","blue","purple","eigengrau","ecru","live","hungry","grilled","evil","good","spanish","sticky"
     ],
     "adverb":[
-        "sweetly","inquisitively","loquaciously","glumly","energetically","eelee"
+        "sweetly","inquisitively","loquaciously","glumly","energetically","eelee","locally","glimly"
     ],
     "verb":[
-        "run","jump","climb","eat"
+        "run","jump","climb","eat","smell","sit","drive","take","effect","ask","believe","read"
+    ],
+    "animal":[
+        "bear","beat","battlestargalactica","seagull","horse","honse","bigfoot","lochness monster","mothman","egret","trout"
+    ],
+    "name":[
+        {
+            "firstName":"bert","lastName":"ernie","gender":"male"
+        },
+        {
+            "firstName":"gart","lastName":"mart","gender":"male"
+        },
+        {
+            "firstName":"bo","lastName":"jangles","gender":"male"
+        },
+        {
+            "firstName":"bojangles","gender":"male"
+        },
+        {
+            "firstName":"marta","lastName":"mcgrandmas","gender":"female"
+        },
+        {
+            "firstName":"nugget"
+        },
+        {
+            "firstName":"haggis","lastName":"onearde","gender":"female"
+        },
+        {
+            "firstName":"eaglret","lastName":"binty"
+        }
+    ],
+    "relation":
+    [
+        {
+            "neutral":"parent",
+            "male":"dad",
+            "female":"mom"
+        },
+        {
+            "neutral":"fiancee"
+        },
+        {
+            "neutral":"grandparent",
+            "male":"grandpa",
+            "female":"grandma"
+        },
+        {
+            "neutral":"neighbor"
+        },
+        {
+            "neutral":"boss"
+        },
+        {
+            "neutral":"nibbling",
+            "male":"nephew",
+            "female":"niece"
+        },
+        {
+            "neutral":"friend"
+        },
+        {
+            "neutral":"spouse",
+            "female":"wife",
+            "male":"husband"
+        },
+        {
+            "neutral":"significant other",
+            "male":"boyfriend",
+            "female":"girlfriend"
+        }
     ]
 }

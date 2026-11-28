@@ -1,0 +1,246 @@
+{
+    "starts": [
+        {
+            "account": "first",
+            "content": "Today I saw "
+        },
+        {
+            "account": "first",
+            "content": "Yesterday I saw "
+        },
+        {
+            "account": "third",
+            "content": "Today I heard that "
+        },
+        {
+            "account": "third",
+            "content": "Yesterday I heard that "
+        },
+        {
+            "account": "second",
+            "content": "I recently saw "
+        },
+        {
+            "account": "second",
+            "content": "My :subRel just told me that ",
+            "subs": {
+                "subject": "person"
+            }
+        },
+        {
+            "account": "second",
+            "content": "I once was told that "
+        },
+        {
+            "account": "third",
+            "content": "I had a dream last night that ",
+            "subs": {
+                "subject": "include",
+                "subInfo": {
+                    "name": "my dream",
+                    "pro": "it",
+                    "rel": "my dream",
+                    "proIs": "my dreams are"
+                }
+            }
+        },
+        {
+            "account": "second",
+            "content": "My :subRel tole me yesterday that ",
+            "subs": {
+                "subject": "person"
+            }
+        },
+        {
+            "account": "third",
+            "content": "A :adjective :subName told me a fact, ",
+            "subs": {
+                "words": ["adjective"],
+                "subject": "noun"
+            }
+        },
+        {
+            "account": "first",
+            "content": "I recently told my :subRel :subName about how ",
+            "subs": {
+                "subject": "person"
+            }
+        },
+        {
+            "content": "Did you know that ",
+            "account": "first"
+        },
+        {
+            "content": "My :subRel used to tell me stories about how ",
+            "account": "second",
+            "subs": {
+                "subject": "person"
+            }
+        },
+        {
+            "content": "Our newspapers had an interesting article about how ",
+            "account": "third",
+            "subs": {
+                "subject":"include",
+                "subInfo": {
+                    "name": "The News",
+                    "rel": "newspaper",
+                    "pro": "it"
+                }
+            }
+        },
+        {
+            "content": "A little :subName told me recently about how ",
+            "account": "third",
+            "subs": {
+                "subject": "animal"
+            }
+        },
+        {
+            "content": "Someone on here told me ",
+            "account": "second",
+            "subs": {
+                "subject": "you"
+            }
+        }
+    ],
+    "events": [
+        {
+            "content": "the :subNames are learning to :verb. ",
+            "specify": ["third"],
+            "subs": {
+                "words": ["verb"],
+                "subject": "noun"
+            }
+        },
+        {
+            "content": "the moon is made of :noun, not moon rocks. ",
+            "specify": ["first","second","third"],
+            "subs": {
+                "words": ["noun"],
+                "subject": "include",
+                "subInfo": {
+                    "name": "The Moon",
+                    "rel": "local celestial body",
+                    "pro": "she",
+                    "mr": "Mr."
+                }
+            }
+        },
+        {
+            "content": ":subName are :adverb :adjective. ",
+            "specify": ["first"],
+            "subs": {
+                "words": ["adjective","adverb"],
+                "subject": "noun"
+            }
+        },
+        {
+            "content":":subName was able to :verb with a :noun made of :noun. ",
+            "specify": ["second","third"],
+            "subs": {
+                "subject": "person",
+                "words": ["verb","noun","noun"]
+            }
+        },
+        {
+            "content": ":subMr will :adverb :verb in the :adjective :noun with a :noun. ",
+            "specify": ["first"],
+            "subs": {
+                "subject": "person",
+                "words": ["adverb","verb","adjective","noun","noun"]
+            }
+        },
+        {
+            "content": "you can take the :subNames at the park, they are free and its perfectly legal. ",
+            "specify": ["first", "second", "third"],
+            "subs": {
+                "subject": "animal"
+            }
+        },
+        {
+            "content": "aliens already came to earth. They apparently came in order to :verb our :noun, at least according to :srcName. ",
+            "specify": ["second"],
+            "subs": {
+                "subject": "include",
+                "words": ["verb", "noun"],
+                "subInfo": {
+                    "name": "aliens",
+                    "pro": "they",
+                    "proIs": "they are",
+                    "mr": "the",
+                    "rel": "invader",
+                    "sur": "invaders"
+                }
+            }
+        },
+        {
+            "content": "everyone here is randomly generated persons. There are no real persons on tattleweb. We are all :nouns. Except for :srcName of course. ",
+            "specify": ["first","second","third"],
+            "subs": {
+                "subject": "you",
+                "words": ["noun"]
+            }
+        },
+        {
+            "content": ":adjective :subNames are filled with :adjective goo. I think the goo is made of :noun, but my :srcRel :srcMr thinks its made of :noun. Either way, we both use it to :verb. ",
+            "specify": ["third","second"],
+            "subs": {
+                "subject": "noun",
+                "words": ["adjective","adjective","noun","noun","verb"]
+            }
+        }
+    ],
+    "ends": [
+        {
+            "content": "I wish I could make this stuff up!",
+            "specify": ["first","second","third"]
+        },
+        {
+            "content": "This is going to effect the local trout population.",
+            "specify": ["first","second","third"]
+        },
+        {
+            "content": "I think I'm going to ask my :srcRel if its true.",
+            "specify": ["second"]
+        },
+        {
+            "content": "On second thought, I think that this might be made up...",
+            "specify": ["third"]
+        },
+        {
+            "content": "Crazy news for :subMr. I'm not sure :subPro can recover from this news.",
+            "specify": ["first","second","third"]
+        },
+        {
+            "content": "Of course, take this with a grain of salt, :srcIs known for tall tales.",
+            "specify": ["second","third"]
+        },
+        {
+            "content": "Honestly though, I think that :subName and :srcName might be related...",
+            "specify": ["third"]
+        },
+        {
+            "content": "You can trust this, because I trust me.",
+            "specify": ["first"]
+        },
+        {
+            "content": "All in all, its a pretty :adjective situation",
+            "specify": ["first","second","third"],
+            "subs": {
+                "words": ["adjective"]
+            }
+        },
+        {
+            "content": "But in all fairness, my :srcRel :srcSur is a weird person...",
+            "specify": ["first"]
+        },
+        {
+            "content": "Sike, lol, dont believe everything you read on the internet! Also, dont :verb everything you :verb on the :noun. :subName taught me that.",
+            "specify": ["second"],
+            "subs": {
+                "words": ["verb","verb","noun"]
+            }
+        }
+    ]
+}

@@ -6,28 +6,95 @@
     <meta name="description" content="Mesa Chamber of Commerce Discover page, WDD231 assignment">
     <meta name="author" content="Jared Lee">
 
-    <title>Mesa AZ Chamber of Commerce - Discover</title>
-    <link rel="stylesheet" href="styles/normalize.css">
+    
+
+    <!-- <link rel="preconnect" href="scripts/date.js"> -->
+    <link rel="modulepreload" href="data/discover.mjs" as="script">
+    <link rel="modulepreload" href="scripts/visits.mjs" as="script">
+    <link rel="modulepreload" href="scripts/discoverCard.mjs" as="script">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Arsenal&family=Gravitas+One&display=swap" as="style">
+
+    <link rel="preload" href="styles/base.css" as="style">
+    <link rel="preload" href="styles/base-discover.css" as="style">
+    <link rel="preload" href="styles/larger.css" as="style">
+
+    <!-- <link rel="preload" href="styles/normalize.css" as="style"> -->
+    <!-- <link rel="preload" href="styles/medium-discover.css" as="style"> -->
+    <link rel="preload" href="styles/larger-discover.css" as="style">
+    <!-- <link rel="preconnect" href="scripts/navigation.js"> -->
+    <!-- <link rel="preconnect" href="scripts/discoverCard.mjs"> -->
+    <!-- <link rel="preconnect" href="styles/normalize.css"> -->
+
+    <!-- <link rel="stylesheet" href="styles/normalize.css"> -->
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/base-discover.css">
+
+    <!-- <link rel="stylesheet" href="styles/medium-discover.css"> -->
+    <link rel="stylesheet" href="styles/larger-discover.css">
+
     <script src="scripts/navigation.js" defer></script>
 
     <link rel="icon" href="favicon.ico">
     <script src="scripts/date.js" defer></script>
+    <!-- <script type="module" src="scripts/visits.mjs"></script> -->
+    <script type="module" src="scripts/discoverCard.mjs" defer></script>
+
     
     <meta property="og:title" content="Jared Lee Home Page">
-    <meta property="og:description" content="Chamber of Commerce Home for Jared Lee's WDD231 Class">
+    <meta property="og:description" content="Chamber of Commerce Discover Page for Jared Lee's WDD231 Class">
     <meta property="og:url" content="https://mrlee1234567.github.io/wdd231/">
     <!-- <meta property="og:image" content="images/placeholder.svg"> -->
     <meta property="og:image" content="https://mrlee1234567.github.io/wdd231/chamber/images/placeholder.svg">
-    
+
+    <title>Mesa AZ Chamber of Commerce - Discover</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arsenal&family=Gravitas+One&display=swap" rel="stylesheet">
+    
+
 </head>
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+        <div class="navlogo">
+            <img src="images/placeholder.svg" alt="logo" width="50" height="50" loading="lazy">
+            <p>Mesa Arizona Chamber of Commerce</p>
+        </div>
+        <button id="ham-btn" class="hamburger" title="hamburger navigator"></button>
+    </header>
+    <main>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li class="current" aria-current="page"><a href="#">Discover</a></li>
+            </ul>
+        </nav>
+        <h1>Discover</h1>
+        <p class="lvt"><span id="lastvist"></span></p>
+        <div class="discover" id="dscv"></div>
+    </main>
+    <footer>
+        <div class="foot">
+            <div class="foot-text">
+                <p>Mesa AZ Chamber of Commerce</p>
+                <p>100 Main St.</p>
+                <p>Mesa, AZ</p>
+                <p>info@mesor.az</p>
+                <p>(480)111-1234</p>
+            </div>
+            <div class="smedia">
+                <a href="facebook.com"><img src="images/facebook.svg" alt="facebook" width="64" height="64" loading="lazy"></a>
+                <a href="linkedin.com"><img src="images/linkedin.svg" alt="linkedin" width="64" height="64" loading="lazy"></a>
+                <a href="github.com"><img src="images/github.svg" alt="github" width="64" height="64" loading="lazy"></a>
+            </div>
+            <div class="foot-text">
+                <p>WDD231 Class Project</p>
+                <p>Jared Lee</p>
+                <p><span id="currentyear"></span></p>
+                <p>Last Modified <span id="lastModified"></span></p>
+            </div>
+    </footer>
 </body>
 </html>
